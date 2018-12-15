@@ -6,13 +6,6 @@ npm start
 
 chrome: localhost:3000
 
-
-Before you begin, read this:
-  - I try my best to make the features of this project as separate as possible. Meaning you can implement pretty much any feature by themselves, without relying on other parts to work.
-  - A lot of the things I ask you to do here resemble whats asked of you from bad-movies
-  - This practice does not need to make api calls
-
-
   ===========================================================================
 
 
