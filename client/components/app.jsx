@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import People from './people.jsx';
 import Buttons from './buttons.jsx';
-import Select from './filter.jsx';
+import Select from './select.jsx';
 import Form from './form.jsx';
 import Average from './average.jsx';
 

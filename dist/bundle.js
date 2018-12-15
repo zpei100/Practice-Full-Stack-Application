@@ -348,7 +348,12 @@ exports.default = function () {
       { "for": "name" },
       "Enter your email"
     ),
-    _react2.default.createElement("input", { className: "form-control", type: "text", name: "name" })
+    _react2.default.createElement("input", { className: "form-control", type: "text", name: "name" }),
+    _react2.default.createElement(
+      "button",
+      { type: "submit", className: "btn btn-dark mt-4" },
+      "Submit"
+    )
   );
 };
 

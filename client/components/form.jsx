@@ -18,6 +18,8 @@ export default function() {
 
       <label for="name">Enter your email</label>
       <input className="form-control" type="text" name="name" ></input>
+
+      <button type="submit" className="btn btn-dark mt-4">Submit</button>
     </form>
   )
 }
