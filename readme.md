@@ -17,20 +17,31 @@ chrome: localhost:3000
 [ ] Mysql:
 
   [ ] Write a .sql file, inside database/mysql that:
+    
     [ ] create a database. Name it whatever you want
+    
     [ ] Creates a table with columns being: isActive, balance (you can keep it as string to start with), age, name and email.
         NOTE!!!: A primary key that has auto increment is recommended
+    
     [ ] Inside index.js, use mysql to create a connection to your msyql server locally.
         NOTE!!!: When googling mysql for javascript, search for npm mysql instead of just mysql
+    
     [ ] Create a method that lets you save ONE data into the database
+    
     [ ] Somehow save all the data in your dummyData.js into the database
+    
     [ ] You should access mysql shell ad check if the data is there.
 
 [ ] MongoDB:
+  
   [ ] Inside index.js, use mongoose to create a connection.
+  
   [ ] Create a schema with props: isActive, balance (keep it as a string to start with), age, name and email.
+  
   [ ] Create a method that lets you save One data into the database
+  
   [ ] Somehow save all the data in your dummyData.js into the database
+  
   [ ] You should use robo3t to check if the data is there.
 
 // Features: Won't give specific details now
@@ -38,14 +49,21 @@ chrome: localhost:3000
 
 [ ] Implement the form so it can add new people data into your database
   NOTE!!! Assume all new people created are active
+  
   [ ] After new data is inserted, the page should render that new person data without refreshing
+  
   [ ] The form fields should clear (back to empty) when the form is submitted
+  
   [Adv] Use a validation module to check if the email entered by the user is valid. If not, handle it gracefully
+  
   [ ] Ensure that the age entered is realistic
 
 [ ] Implement the active and none-active buttons. They should filter out data in some way
+  
   [ ] Implement this feature in two ways (this is for practice, but actually implement the state one):
+    
     [ ] When a button is clicked, a new request is made to retrieve new data. The filtering is done on the server side
+    
     [ ] When a button is clicked, state changes, and filtering is done on the client side
 
 [ ] Implement the select bar so the list of people are sorted by whats selected.
