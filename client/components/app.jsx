@@ -20,6 +20,7 @@ export default class App extends Component {
 
           <div className="col-sm-5">
             <Form />
+            <hr></hr>
             <Average />
           </div>
         </div>
