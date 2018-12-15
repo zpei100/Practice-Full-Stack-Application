@@ -17,13 +17,19 @@ chrome: localhost:3000
 [ ] Mysql:
 
   [ ] Write a .sql file, inside database/mysql that:
+    
     [ ] create a database. Name it whatever you want
+    
     [ ] Creates a table with columns being: isActive, balance (you can keep it as string to start with), age, name and email.
         NOTE!!!: A primary key that has auto increment is recommended
+    
     [ ] Inside index.js, use mysql to create a connection to your msyql server locally.
         NOTE!!!: When googling mysql for javascript, search for npm mysql instead of just mysql
+    
     [ ] Create a method that lets you save ONE data into the database
+    
     [ ] Somehow save all the data in your dummyData.js into the database
+    
     [ ] You should access mysql shell ad check if the data is there.
 
 [ ] MongoDB:
