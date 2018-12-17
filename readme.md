@@ -1,10 +1,20 @@
-run the following:
+This is an application boilerplate that is intended for beginning developers to practice building a full stack with.
+The stack includes Reactjs, Nodejs, Express, MongoDB, MySQL.
 
-npm install
-npm run webpack
-npm start
+===========================================
+To run the application:
+    npm install
+    npm run webpack
+    npm start
 
-chrome: localhost:3000
+Run on:  localhost:3000
+
+
+
+Main:
+===========================================
+# ![Alt text](imgs/Main.png?raw=true 'Main')
+===========================================
 
 ===========================================
 README BEST VIEWD IN VSCODE
