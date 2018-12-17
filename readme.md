@@ -5,9 +5,9 @@ The stack includes Reactjs, Nodejs, Express, MongoDB, MySQL.
 
 To run the application:
 
-npm install
-npm run webpack
-npm start
+- npm install
+- npm run webpack
+- npm start
 
 Run on:  localhost:3000
 
